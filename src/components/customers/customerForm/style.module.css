@@ -1,0 +1,35 @@
+.formContainer {
+  padding: 40px;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.actions button {
+  height: 40px;
+  border-radius: 8px;
+  padding: 8px, 12px, 8px, 12px;
+  background-color: #0EA5E9;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  transition: background-color ease-out .3s;
+}
+
+.actions button:focus {
+  outline: 2px solid #BAE6FD;
+  border-color: #BAE6FD;
+  --tw-ring-offset-shadow: none;
+  outline-offset: 0;
+}
+
+.actions button:hover {
+  background-color: #0284C7;
+}

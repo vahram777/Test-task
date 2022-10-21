@@ -1,0 +1,57 @@
+.table {
+  width: 100%;
+  text-align: left;
+}
+
+.table tr {
+  height: 50px;
+}
+
+.table .header {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #94A3B8;
+  display: grid;
+  grid-template-columns: 0.28fr 0.28fr 0.28fr 0.08fr 0.08fr;
+  margin-bottom: 6px
+}
+
+.table .body {
+  display: grid;
+  grid-template-columns: 0.28fr 0.28fr 0.28fr 0.08fr 0.08fr;
+  padding: 8px 0;
+}
+
+.status {
+  width: 49px;
+  height: 24px;
+  border-radius: 4px;
+  display: flex;
+}
+
+.customerName {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.customerName svg {
+  padding: 4px;
+  width: 32px;
+  height: 32px;
+  background: #F1F5F9;
+  border-radius: 8px;
+}
+
+.actions {
+  display: flex;
+  gap: 15px;
+}
+
+.actions button {
+  width: 24px;
+  height: 24px;
+}

@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import Customers from '../components/customers'
 
 const Home: NextPage = () => {
   return (
@@ -7,6 +8,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Dashboard</title>
       </Head>
+      <Customers />
     </>
   );
 };

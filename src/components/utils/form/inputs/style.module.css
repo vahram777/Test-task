@@ -1,0 +1,75 @@
+.col-span-3 {
+  grid-column: span 3 / span 3;
+}
+
+.col-span-6 {
+  grid-column: span 6 / span 6;
+}
+
+.switchOptions {
+  display: grid;
+  gap: 10px;
+  text-align: center;
+  background: #F1F5F9;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  gap: 4px;
+  height: 40px;
+  border: 1px solid #F1F5F9;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  transition: all ease-out .3s;
+}
+
+.options:not(.selectedOption):hover {
+  cursor: pointer;
+  background-color: #f9fafb40;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.selectedOption {
+  background: #FFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.input:focus {
+  outline: 2px solid #BAE6FD;
+  border-color: #BAE6FD;
+  --tw-ring-offset-shadow: none;
+  outline-offset: 0;
+}
+
+.additionalText {
+  color: #94A3B8
+}
+
+.passwordInput {
+  position: relative;
+}
+
+.passwordInput {
+  position: relative;
+}
+
+.passwordInput input {
+  padding-right: 45px;
+}
+
+.passwordInput button {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
